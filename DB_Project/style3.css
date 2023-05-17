@@ -1,0 +1,104 @@
+﻿body {
+    background-color:lightblue;
+    font-family: Arial, sans-serif;
+}
+
+header {
+
+}
+.headerlogo {
+    color: #063970;
+    display: flex;
+}
+
+    .headerlogo img {
+        width: 15%;
+        height: 15%;
+    }
+
+nave-item{
+    background-color:lightcoral;
+}
+.navbar {
+}
+.navbar-brand {
+    color: lightcyan;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: lightcyan;
+    font-weight: bold;
+}
+
+.welcome-section {
+    background-image: linear-gradient(to left, white,lightcyan);
+    padding: 50px 0;
+    text-align: center;
+}
+
+    .welcome-section h1 {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .welcome-section p {
+        font-size: 24px;
+    }
+
+.attendance-section {
+    background-image: linear-gradient(to left, white,lightcyan);
+    padding: 50px 0;
+}
+
+    .attendance-section h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+.evaluation-section {
+    background-image: linear-gradient(to left, white,lightcyan);
+    padding: 50px 0;
+}
+
+    .evaluation-section h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .evaluation-section table {
+        width: 100%;
+    }
+
+    .evaluation-section th, .evaluation-section td {
+        text-align: center;
+    }
+
+.transcript-section {
+    background-color: #F0FFFF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+    .transcript-section h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+.bg-light {
+    background-color: #F0FFFF;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+}

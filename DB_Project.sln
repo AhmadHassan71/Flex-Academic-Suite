@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DB_Project", "DB_Project\", "{97C1C8A2-EBA6-4CE0-81D3-C04AD0C5B754}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59903"
+		Debug.AspNetCompiler.PhysicalPath = "DB_Project\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59903\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59903"
+		Release.AspNetCompiler.PhysicalPath = "DB_Project\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59903\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59903"
+		SlnRelativePath = "DB_Project\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DBAD7296-BDE9-4838-B9CF-46EEB4A64723}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97C1C8A2-EBA6-4CE0-81D3-C04AD0C5B754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C1C8A2-EBA6-4CE0-81D3-C04AD0C5B754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36E87E9C-B306-4F3E-AE7A-85612241E062}
+	EndGlobalSection
+EndGlobal

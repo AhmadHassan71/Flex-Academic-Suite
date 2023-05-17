@@ -1,0 +1,110 @@
+﻿body {
+    background: linear-gradient(to bottom, #f5f5f5, #ADD8E6);
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    color: #063970;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+    .logo img {
+        width: 60%;
+        height: 60%;
+        margin-right: 10px;
+    }
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.form-group {
+    background: linear-gradient(to bottom, #f5f5f5, #ADD8E6);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .form-group label {
+        margin-bottom: 10px;
+    }
+
+
+
+.labelLogin {
+    padding: 10px;
+    background-color: #00bfff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 17px;
+}
+
+.btn-login {
+    background-color: #00bfff;
+    background-image: linear-gradient(to bottom, #00bfff, #0066cc);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #90dae5;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup a {
+    display: inline-block;
+    background: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.signup a:hover {
+    background-color: #00bfff;
+}
